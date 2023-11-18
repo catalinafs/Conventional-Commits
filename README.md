@@ -33,3 +33,35 @@ This is the basic syntax of conventional commits:
 - **style:** Styles, Changes in the formatting code, tabs, spaces or semicolons, etc; They do not affect the performance of the code
 - **test:** Tests, Adding missing tests or correcting existing tests
 - **revert:** Reverts, Reverts a previous commit
+
+## Breaking Changes
+
+```
+BREAKING CHANGES: or !
+```
+
+Indicates that a change made to the code is a significant break or change that may affect compatibility with earlier versions of the software. Which means that additional actions are required by users or developers to adapt to the new version of the software.
+
+### Example #1
+
+This example uses the slightly advanced syntax of conventional commits
+
+```
+feat: agregar nueva funcionalidad de autenticación
+
+BREAKING CHANGE: se ha cambiado el formato de los tokens de autenticación. Los tokens ahora son JWT en lugar de tokens de sesión. Esto requiere que los usuarios actualicen sus implementaciones de autenticación para utilizar el nuevo formato de token.
+```
+
+First there is a feat indicating that a new functionality was created, then it indicates that a BREAKING CHANGE was made and a description of the change is given
+
+### Example #2
+
+This example uses the basic syntax of conventional commits
+
+```
+BREAKING CHANGE:feat:: agregar nueva funcionalidad de autenticación, cambiando los tokens de sesion por JWT.
+```
+
+First there is a feat indicating that a new functionality was created, then it indicates that a BREAKING CHANGE was made and a description of the change is given
+
+## [For more information click here](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines)
