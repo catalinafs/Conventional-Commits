@@ -28,3 +28,8 @@ This is the basic syntax of conventional commits:
 - **fix:** Bug Fixes, used when the commit represents the bug fix in your application
 - **perf:** Perfor­mance Improv­ements, used when the commit represents the bug fix in your application
 - **docs:** Perfor­mance Improv­ements, used when the commit represents the bug fix in your application
+- **refactor:** Code Refact­oring, A change in code that does not fix a bug or add a feature but changes names of variables, functions, etc
+- **build:** Builds, Changes that affect the build system or external dependencies, for example adding or removing a dependency
+- **style:** Styles, Changes in the formatting code, tabs, spaces or semicolons, etc; They do not affect the performance of the code
+- **test:** Tests, Adding missing tests or correcting existing tests
+- **revert:** Reverts, Reverts a previous commit
