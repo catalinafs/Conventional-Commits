@@ -2,7 +2,8 @@
 
 Writing good commit messages is important so that your project history is readable, easily scannable, and understandable by anyone participating in the project.
 
-imagen aqui de commit malo
+![](./img/git_commit-mal.png)
+![](./img/mal-commit.jpg)
 
 ## Basic Syntax
 
