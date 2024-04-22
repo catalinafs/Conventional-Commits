@@ -61,8 +61,14 @@ This example uses the basic syntax of conventional commits
 
 ```
 BREAKING CHANGE:feat:: agregar nueva funcionalidad de autenticación, cambiando los tokens de sesion por JWT.
+
+or
+
+!feat:: agregar nueva funcionalidad de autenticación, cambiando los tokens de sesion por JWT.
 ```
 
-First there is a feat indicating that a new functionality was created, then it indicates that a BREAKING CHANGE was made and a description of the change is given
+Here we have two different ways of saying that there was a breaking change in the code.
+
+First there is a BREAKING CHANGE indicating that a significant change was made to the code, then it indicates what type of changes were made in that commit, and lastly a description of the change is given
 
 ## [For more information click here](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines)
